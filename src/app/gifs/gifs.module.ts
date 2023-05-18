@@ -7,6 +7,7 @@ import { HomePageComponent } from './pages/home/home-page.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { CardListComponent } from './components/card-list/card-list.component';
 import { CardComponent } from './components/card/card.component';
+import { TitleComponent } from './components/title/title.component';
 
 
 
@@ -15,7 +16,8 @@ import { CardComponent } from './components/card/card.component';
     CardComponent,
     CardListComponent,
     HomePageComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+    TitleComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +27,7 @@ import { CardComponent } from './components/card/card.component';
     CardComponent,
     CardListComponent,
     HomePageComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
   ]
 })
 export class GifsModule { }
